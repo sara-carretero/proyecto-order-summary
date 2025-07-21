@@ -10,10 +10,17 @@ body {
   /* centrar los elementos hijos en el eje Y */
   align-items: center;
   height: 100vh;
+  color: hsl(224, 23%, 55%);
   background-color: hsl(225, 100%, 94%);
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: repeat-x;
   font-family: "Red Hat Display", sans-serif;
+}
+
+h2,
+h4 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
 }
 
 img {
@@ -22,22 +29,26 @@ img {
 
 article {
   background-color: white;
-  width: 250px;
+  width: 400px;
+  height: 600px;
   border-radius: 20px;
   overflow: hidden;
 }
 
 .content {
   padding: 20px;
+  margin: 20px;
+  margin-top: 0px;
 }
 
 .content h2,
 .content .description {
+  padding: 10px;
   text-align: center;
 }
 
 .content img {
-  width: 30px;
+  width: 45px;
 }
 
 .precio {
@@ -45,8 +56,8 @@ article {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px;
-  border-radius: 20px;
+  padding: 10px;
+  border-radius: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -59,8 +70,9 @@ button {
   display: block;
   width: 100%;
   border: none;
-  padding: 8px;
-  border-radius: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: transparent;
   cursor: pointer;
   transition: 0.3s scale;
 }
@@ -70,12 +82,12 @@ button {
   background-color: #382ae1;
   color: white;
   font-weight: bold;
+  box-shadow: 0px 10px 25px -5px hsl(223, 47%, 23%);
 }
 
 .btn-cancel {
   font-weight: bold;
   color: #7280a7;
-  background-color: #f8f9fe;
 }
 
 button:hover {
