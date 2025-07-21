@@ -24,3 +24,31 @@ article {
   border-radius: 20px;
   overflow: hidden;
 }
+
+.content {
+  padding: 20px;
+}
+
+.content h2,
+.content .description {
+  text-align: center;
+}
+
+.content img {
+  width: 30px;
+}
+
+.precio {
+  background-color: #f8f9fe;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.precio a {
+  font-weight: bold;
+}
